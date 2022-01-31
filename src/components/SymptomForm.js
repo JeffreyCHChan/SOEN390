@@ -49,7 +49,7 @@ function SymptomForm() {
 
   return (
   <div align="Center">
-    <Paper  elevation={24} component="form" onSubmit={handleSubmit, redirectPatientProfile}  sx={{width: 700, height:2000, mt:10}}> 
+    <Paper  elevation={24} component="form" onSubmit={handleSubmit}  sx={{width: 700, height:2000, mt:10}}> 
       <h1>Symptoms</h1>
 
 
