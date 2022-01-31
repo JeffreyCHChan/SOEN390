@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import DoctorProfile from './components/DoctorProfile'
 import PatientProfile from './components/PatientProfile';
+import SymptomForm from './components/SymptomForm';
 
 
 
@@ -23,7 +24,7 @@ function App() {
           <Route path='/DoctorProfile' element={<DoctorProfile/>} />
           <Route path='/AdminDashboard' element={<AdminDashboard/>}/>
           <Route path='/PatientProfile' element={<PatientProfile/>}/>
-          
+          <Route path='/SymptomForm' element={<SymptomForm/>}/>
         </Routes>
         <Footer/>
       </div>
